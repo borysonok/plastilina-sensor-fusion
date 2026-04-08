@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Plastilina/Plastilina.vcxproj" Id="e3278a02-a55d-4423-8967-b291bed5f099" />
+</Solution>
