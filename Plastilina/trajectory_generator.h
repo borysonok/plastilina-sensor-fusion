@@ -1,7 +1,8 @@
 #pragma once
 
-#include <vector>
 #include "true_path_sample.h"
+
+#include <vector>
 
 class TrajectoryGenerator {
 public:
