@@ -137,6 +137,9 @@
     <ClInclude Include="trajectory_generator.h" />
     <ClInclude Include="true_path_sample.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="scripts\csvPathViewer.py" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
