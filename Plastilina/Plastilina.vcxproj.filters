@@ -13,6 +13,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{12d21cdd-9f1e-43bd-a637-745ea109371c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -35,5 +38,10 @@
     <ClInclude Include="true_path_sample.h">
       <Filter>Headers</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="scripts\csvPathViewer.py">
+      <Filter>Scripts</Filter>
+    </Text>
   </ItemGroup>
 </Project>
