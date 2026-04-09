@@ -14,9 +14,15 @@ int main()
 	const double vx = 2.0;
 	const double vy = 1.0;
 
-	auto path = generator.generateStraightLine(duration, dt, vx, vy);
+	auto linePath = generator.generateStraightLine(duration, dt, vx, vy);
 
-	saveCSV(path, "true_line_path.csv");
+	const double radius = 5.0;
+	const double angularSpeed = 0.75;
+
+	auto circlePath = generator.generateCircularLine(duration, dt, radius, angularSpeed);
+
+	saveCSV(linePath, "true_line_path.csv");
+	saveCSV(circlePath, "true_circle_path.csv");
 
 	return 0;
 }
