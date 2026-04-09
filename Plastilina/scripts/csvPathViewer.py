@@ -1,8 +1,18 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("../true_line_path.csv")
+# Load files
+line = pd.read_csv("../true_line_path.csv")
+circle = pd.read_csv("../true_circle_path.csv")
 
-plt.plot(df["x"], df["y"])
+# Plot
+plt.plot(line["x"], line["y"], label="Line")
+plt.plot(circle["x"], circle["y"], label="Circle")
+
+# Format
 plt.axis("equal")
+plt.grid()
+plt.legend()
+
+# Show
 plt.show()
