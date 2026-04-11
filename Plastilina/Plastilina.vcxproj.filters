@@ -16,6 +16,9 @@
     <Filter Include="Scripts">
       <UniqueIdentifier>{12d21cdd-9f1e-43bd-a637-745ea109371c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\sensors">
+      <UniqueIdentifier>{9990871a-0c6e-4dfa-b8a2-9d3b52ebe87e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -27,6 +30,9 @@
     <ClCompile Include="csv_writer.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="gps_sensor.cpp">
+      <Filter>src\sensors</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="trajectory_generator.h">
@@ -37,6 +43,15 @@
     </ClInclude>
     <ClInclude Include="true_path_sample.h">
       <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gps_sensor.h">
+      <Filter>src\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="measurement.h">
+      <Filter>src\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor_base.h">
+      <Filter>src\sensors</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -129,11 +129,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="csv_writer.cpp" />
+    <ClCompile Include="gps_sensor.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="trajectory_generator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="csv_writer.h" />
+    <ClInclude Include="gps_sensor.h" />
+    <ClInclude Include="measurement.h" />
+    <ClInclude Include="sensor_base.h" />
     <ClInclude Include="trajectory_generator.h" />
     <ClInclude Include="true_path_sample.h" />
   </ItemGroup>
