@@ -130,12 +130,14 @@
   <ItemGroup>
     <ClCompile Include="csv_writer.cpp" />
     <ClCompile Include="gps_sensor.cpp" />
+    <ClCompile Include="kalman_filter.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="trajectory_generator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="csv_writer.h" />
     <ClInclude Include="gps_sensor.h" />
+    <ClInclude Include="kalman_filter.h" />
     <ClInclude Include="measurement.h" />
     <ClInclude Include="sensor_base.h" />
     <ClInclude Include="trajectory_generator.h" />

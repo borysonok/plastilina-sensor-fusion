@@ -2,7 +2,7 @@
 
 struct Measurement
 {
-	double t;
-	double x;
-	double y;
+	double t = 0;
+	double x = 0;
+	double y = 0;
 };

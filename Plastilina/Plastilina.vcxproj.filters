@@ -33,6 +33,9 @@
     <ClCompile Include="gps_sensor.cpp">
       <Filter>src\sensors</Filter>
     </ClCompile>
+    <ClCompile Include="kalman_filter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="trajectory_generator.h">
@@ -44,14 +47,17 @@
     <ClInclude Include="true_path_sample.h">
       <Filter>Headers</Filter>
     </ClInclude>
-    <ClInclude Include="gps_sensor.h">
-      <Filter>src\sensors</Filter>
-    </ClInclude>
     <ClInclude Include="measurement.h">
       <Filter>src\sensors</Filter>
     </ClInclude>
     <ClInclude Include="sensor_base.h">
       <Filter>src\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="gps_sensor.h">
+      <Filter>src\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="kalman_filter.h">
+      <Filter>Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
